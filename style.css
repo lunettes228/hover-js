@@ -1,0 +1,78 @@
+/* *{
+    background-color: white;
+} */
+
+
+#rouge{
+    background-color: red;
+    width: 250px;
+    height: 200px;
+    /* border-radius: 20px; */
+}
+#jaune{
+    background: yellow;
+    width: 250px;
+    height: 200px;
+    /* border-radius: 20px; */
+    
+}
+#vert{
+    background:green;
+    width: 250px;
+    height: 200px;
+    /* border-radius: 20px; */
+}
+    
+#bleu{
+    background: blue;
+    width: 250px;
+    height: 200px;
+    /* border-radius: 20px; */
+}
+    
+div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 100px;
+    padding: none;
+}
+#rouge:hover{
+    width: 400px;
+    background-color: blueviolet;
+    transition: 0.4s ease;
+}
+#bleu:hover{
+    width: 400px;
+    background:black;
+    transition: 0.4s ease-in-out;
+}
+#jaune:hover{
+    width: 400px;
+    background: fuchsia;
+    transition: 0.4s ease;}
+#vert:hover{
+    width: 400px;
+    background: gray;
+    transition: 0.4s ease-in-out;
+}
+title{
+    text-transform:capitalize;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline red;
+}
+body:hover{
+    background-color: bisque;
+    transition: 1.9s ease-in;
+}
+body{
+    background-color: white;
+}
+.bletu{
+    /* border-radius: 50px;
+    transition: 0.5s ease; */
+    border: 4px pink dotted;
+    border-radius: 10px;
+}
